@@ -1,0 +1,424 @@
+.logo-icon {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.logo-icon:hover{
+  display: none;
+}
+
+.logo-icon-hover{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.logo-icon-hover:hover{
+  background-image: url("icons/logo_ho.svg");
+}
+
+
+.instagram-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.instagram {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 230px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.instagram:hover {
+  display: none;
+}
+
+.instagramHover {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 230px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.instagramHover:hover {
+  background-image: url("icons/ig_ho.svg");
+}
+
+.linkedin {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 170px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.linkedin:hover {
+  display: none;
+}
+
+.linkedinHover {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 170px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+.linkedinHover:hover {
+  background-image: url("icons/ln_ho.svg");
+}
+
+.github {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 110px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.github:hover {
+  display: none;
+}
+
+.githubHover {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 110px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.githubHover:hover {
+  background-image: url("icons/gh_ho.svg");
+}
+
+.x {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.x:hover {
+  display: none;
+}
+
+.xHover {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  scale: 85%;
+}
+
+.xHover:hover {
+  background-image: url("icons/x_ho.svg");
+}
+
+.my-resume1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 103.5px;
+  height: 23.25px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.my-resume {
+  text-decoration: none;
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  width: 103.25px;
+  height: 23.25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ee9944;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+
+.my-resume:hover {
+  color: #ffffff;
+}
+
+.i-am-primarily {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  text-align: justify;
+  display: inline-block;
+  width: 700px;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+
+.chess{
+  text-decoration: none;
+  color: #ee9944;
+}
+
+.chess:hover{
+  color: #ffffff;
+}
+
+.hi-im-muhammad {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 37.5px;
+  font-weight: 500;
+  color: #ee9944;
+  display: inline-block;
+  width: 469px;
+  height: 46px;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+
+.my-resume-parent {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  width: 570.75px;
+  height: 171.15px;
+  color: #d7d7d7;
+}
+.network-design-for {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+.airports-are-sensitive {
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  color: #d7d7d7;
+  text-align: justify;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+
+.airports-are-sensitive:hover {
+  color: #ffffff;
+}
+
+.network-design-for-airports {
+  text-decoration: none;
+  position: absolute;
+  top: 370px;
+  left: 50px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+.pyramid-solitaire-using-python {
+  text-decoration: none;
+  position: absolute;
+  top: 370px;
+  left: 425px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+.portfolio-management-system {
+  text-decoration: none;
+  position: absolute;
+  top: 370px;
+  left: 800px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+.in-recent-years {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  color: #d7d7d7;
+  text-align: justify;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+
+.in-recent-years:hover {
+  color: #ffffff;
+}
+
+.driver-drowsiness-detection {
+  text-decoration: none;
+  position: absolute;
+  top: 540px;
+  left: 50px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+
+.rapid-document-conversion {
+  text-decoration: none;
+  position: absolute;
+  top: 540px;
+  left: 425px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+.justizen1 {
+  position: relative;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeFromUp 1.1s ease-in-out forwards;
+}
+.justizen {
+  text-decoration: none;
+  position: absolute;
+  top: 540px;
+  left: 800px;
+  width: 274.5px;
+  height: 141.75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #ee9944;
+}
+
+.muhammad-waseems-portfolio {
+  position: relative;
+  background-color: #181818;
+  width: 100%;
+  height: 810px;
+  text-align: left;
+  font-size: 18.75px;
+  color: #ee9944;
+  font-family: "Clash Grotesk";
+}
+
+@keyframes fadeFromUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
